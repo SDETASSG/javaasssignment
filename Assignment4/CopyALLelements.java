@@ -9,20 +9,20 @@ public class CopyALLelements {
 
 		HashSet<Integer> hSet = new HashSet<Integer>();
 
-	    hSet.add(new Integer("1"));
-	    hSet.add(new Integer("2"));
-	    hSet.add(new Integer("3"));
+		hSet.add(new Integer("1"));
+		hSet.add(new Integer("2"));
+		hSet.add(new Integer("3"));
 
-	    Object[] objArray = hSet.toArray();
+		Object[] objArray = hSet.toArray();
 
-	    for (Object obj : objArray)
-	      System.out.println(obj);
-		
-		
-		
-        
-		
-		
+		for (Object obj : objArray)
+			System.out.println(obj);
+
+
+
+
+
+
 	}
 
 }
